@@ -1,0 +1,161 @@
+.aboutListTitle {
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: var(--web-title);
+}
+
+.aboutList {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 28px;
+    margin: 35px 0px;
+}
+
+.aboutCard {
+    border: 1px solid var(--web-border);
+    border-radius: 16px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    backdrop-filter: blur(100px);
+}
+
+html[data-theme='light'] .aboutCard {
+    background-color: var(--web-bg-card);
+    border: none;
+    box-shadow: 0 0 4px rgba(71, 73, 79, 0.1), 0 1px 2px rgba(71, 73, 79, 0.25);
+    margin-bottom: 20px;
+}
+
+.aboutCard:hover {
+    text-decoration: none;
+}
+
+.aboutCardTitle {
+    color: var(--web-title);
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.aboutCardGithubLink {
+    display: contents;
+    color: var(--web-text);
+}
+
+.aboutCardGithubLink:hover {
+    color: var(--web-bg-3)
+}
+
+.aboutCardText {
+    margin-bottom: 16px;
+}
+
+.aboutCardImage {
+    display: block;
+    margin: 0 auto 24px;
+    width: 319px;
+    height: 172px;
+}
+
+.aboutCardImage::after {
+    content: '';
+    display: block;
+    width: 319px;
+    height: 172px;
+    transform: scale(0.5) translate(-160px, -86px);
+}
+
+
+.aboutCardLinkWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 4px;
+}
+
+.aboutCardLinkTitle {
+    position: relative;
+}
+
+.aboutCardLinkSwagger {
+    position: absolute;
+    left: calc(100% + 4px);
+    font-size: 10px;
+    line-height: 10px;
+    padding: 3px 6px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: var(--web-bg-6);
+}
+
+.aboutCardLinkWrap {
+    color: var(--web-text);
+}
+
+.aboutCardLinkWrap:last-child {
+    margin-bottom: 0;
+}
+
+.aboutCardLinkWrap:hover {
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+    color: var(--web-text-3);
+}
+
+.aboutCardLinkWrap:hover .aboutCardLinkSwagger {
+    background: #85eb2b;
+    color: var(--web-common-text);
+    transition: .2s;
+}
+
+.aboutCardLinkIcon {
+    color: var(--web-common-bg);
+}
+
+.aboutCardLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 28px;
+}
+
+@media (max-width: 1200px) {
+    .aboutList {
+        grid-gap: 16px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .aboutList {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 16px;
+    }
+}
+
+@media (max-width: 780px) {
+    .aboutList {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutCardLinks {
+        grid-template-columns: 1fr;
+    }
+
+    .aboutCardImage {
+        width: 240px;
+        height: 130px;
+    }
+
+    .aboutCardImage::after {
+        width: 240px;
+        height: 130px;
+        transform: scale(0.4) translate(-210px, -100px);;
+    }
+}

@@ -1,0 +1,156 @@
+.roadmapListTitle {
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: var(--web-title);
+}
+
+.roadmapList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 28px;
+}
+
+.roadmapCard {
+    border: 1px solid var(--web-border);
+    border-radius: 16px;
+    padding: 22px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    backdrop-filter: blur(100px);
+    margin: 25px auto;
+}
+
+
+.roadmapCard:hover {
+    text-decoration: none;
+}
+
+.roadmapCardTitle {
+    color: var(--web-title);
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.roadmapCardGithubLink {
+    display: contents;
+    color: var(--web-text);
+}
+
+.roadmapCardGithubLink:hover {
+    color: var(--web-bg-3)
+}
+
+.roadmapCardText {
+    margin-bottom: 16px;
+}
+
+.roadmapCardImage {
+    display: block;
+    margin: 0 auto 24px;
+    width: 319px;
+    height: 172px;
+}
+
+.roadmapCardImage::after {
+    content: '';
+    display: block;
+    width: 319px;
+    height: 172px;
+    transform: scale(0.5) translate(-160px, -86px);
+}
+
+
+
+.roadmapCardLinkWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 4px;
+}
+
+.roadmapCardLinkTitle {
+    position: relative;
+}
+
+.roadmapCardLinkSwagger {
+    position: absolute;
+    left: calc(100% + 4px);
+    font-size: 10px;
+    line-height: 10px;
+    padding: 3px 6px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: var(--web-bg-6);
+}
+
+.roadmapCardLinkWrap {
+    color: var(--web-text);
+}
+
+.roadmapCardLinkWrap:last-child {
+    margin-bottom: 0;
+}
+
+.roadmapCardLinkWrap:hover {
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+    color: var(--web-text-3);
+}
+
+.roadmapCardLinkWrap:hover .roadmapCardLinkSwagger {
+    background: #85eb2b;
+    color: var(--web-common-text);
+    transition: .2s;
+}
+
+.roadmapCardLinkIcon {
+    color: var(--web-common-bg);
+}
+
+.roadmapCardLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 28px;
+}
+
+@media (max-width: 1200px) {
+    .roadmapList {
+        grid-gap: 16px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .roadmapList {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 16px;
+    }
+}
+
+@media (max-width: 780px) {
+    .roadmapList {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .roadmapCardLinks {
+        grid-template-columns: 1fr;
+    }
+
+    .roadmapCardImage {
+        width: 240px;
+        height: 130px;
+    }
+
+    .roadmapCardImage::after {
+        width: 240px;
+        height: 130px;
+        transform: scale(0.4) translate(-210px, -100px);;
+    }
+}
