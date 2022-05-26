@@ -46,6 +46,23 @@ const FooterLinks = {
                 }
             ]
         },
+        {
+          title: 'Products',
+          links: [
+              {
+                  title: 'DEX',
+                  link: '#'
+              },
+              {
+                  title: 'IDO Launchpad',
+                  link: '#'
+              },
+              {
+                  title: 'Lottery',
+                  link: '#'
+              }
+          ]
+      },
     ],
     socialMedia: [
         {

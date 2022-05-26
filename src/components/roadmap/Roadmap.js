@@ -34,7 +34,9 @@ const RoadmapList = [
   {
     title: 'Q1 2023',
     items: [
-        "Governance Dapp's Development",      
+        "Governance Dapp's Development",
+        "Lottery Development",
+        "IDO Launchpad Development",      
         "Strategic Partnerships", 
         "Additional features"
     ]

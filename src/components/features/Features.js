@@ -35,6 +35,26 @@ const FeatureList = [
             }
         ]
     },
+    {
+      title: 'IDO Launchpad',
+      description: 'IDO Launchpad for a decentralized fundraising enabling projects to raise capital and promise safety to early stage investors.',
+      links: [
+          {
+              title: 'IDO',
+              href: '#'
+          }
+      ]
+    },
+    {
+      title: 'Lottery',
+      description: 'CEXSwap offers users a way to make money with cryptocurrency by participate in crypto lottery games.',
+      links: [
+          {
+              title: 'Lottery',
+              href: '#'
+          }
+      ]
+    },
 ];
 
 function Feature({title, description, links}) {

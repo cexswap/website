@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CEXSwap | the Decentralized Exchange (DEX)',
-  tagline: 'CEXSwap is an decentralized exchange (DEX) open source project that will work for any EVM compatible chain.',
+  tagline: 'CEXSwap is a decentralized exchange (DEX) open source project that will work for any EVM compatible chain.',
   url: 'https://www.cexswap.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -61,7 +61,7 @@ const config = {
           {
             label: 'Whitepaper',
             position: 'left',
-            href: '/'
+            href: 'https://github.com/cexswap/assets/raw/main/docs/CEXSwap%20White%20Paper.pdf'
           },
           {
             label: 'Roadmap',

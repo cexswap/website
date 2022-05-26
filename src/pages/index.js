@@ -11,17 +11,17 @@ import Head from "@docusaurus/core/lib/client/exports/Head";
 export default function Home() {
     return (
         <Layout pageClassName={styles.mainLayout}
-                description="CEXSwap is an decentralized exchange (DEX) open source project that will work for any EVM compatible chain.">
+                description="CEXSwap is a decentralized exchange (DEX) open source project that will work for any EVM compatible chain.">
             <Head>
                 <title>CEXSwap | The Decentralized Exchange (DEX)</title>
                 <meta property="og:title" content="CEXSwap | the Decentralized Exchange (DEX)" />
-                <meta property="og:description" content="CEXSwap is an decentralized exchange (DEX) open source project that will work for any EVM compatible chain." />
+                <meta property="og:description" content="CEXSwap is a decentralized exchange (DEX) open source project that will work for any EVM compatible chain." />
                 <meta property="og:url" content="https://www.cexswap.org/" />
                 <meta property="og:image" content="#" />
                 <meta property="og:site_name" content="CEXSwap" />
                 <meta property="og:type" content="website" />
                 <meta property="twitter:title" content="CEXSwap | the Decentralized Exchange (DEX)" />
-                <meta name="twitter:description" content="CEXSwap is an decentralized exchange (DEX) open source project that will work for any EVM compatible chain." />
+                <meta name="twitter:description" content="CEXSwap is a decentralized exchange (DEX) open source project that will work for any EVM compatible chain." />
                 <meta name="twitter:image:alt" content="CEXSwap | the Decentralized Exchange (DEX)" />
                 <meta name="twitter:image" content="#" />
                 <meta name="twitter:site" content="@cexswap" />

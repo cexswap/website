@@ -8,15 +8,17 @@ const AboutList = [
   {
       title: 'About CEXSwap',
       descriptions: [
-        'CEXSwap is an decentralized exchange (DEX) open source project that will work for any EVM compatible chain.',
+        'CEXSwap is a decentralized exchange (DEX) open source project that will work for any EVM compatible chain.',
         'CEXSwap DEX allows you to trade safely and accurately using slippage and Price Impact. Enjoy the stability of decentralized trading with Slippage and Price Impact.',
         'It will work like other DEX but will be fully governed by the community using the governance token ($CEX).',
         'The specials feature of this DEX is listed below (not limited to the list):', 
         '- Community can vote for swap fee, slippage fees, referral commission, liquidity providers earned commission.',
         '- Community can vote treasury and referral share',
         '- Support of referral system',
+        '- IDO Launchpad',
+        '- Lottery',
         '- And more',
-        'CEXSwap will provide basic DEX functions, and at the same time provide service functions to enable Yield Farming so that users can utilize $CEX token as much as possible. Through this, you can access new features that were not used in the existing network.',
+        'CEXSwap will provide basic DEX functions, and at the same time provide service functions to enable Yield Farming, IDO launchpad, lottery  so that users can utilize the $CEX token as much as possible. Through this, you can access new features that were not used in the existing network.',
         'Most exchanges maintain an order book and facilitate matches between buyers and sellers.', 
         'CEXSwap smart contracts hold liquidity reserves of various tokens, and trades are executed directly against these reserves.', 
         'Prices are set automatically using the constant product x * y = k market maker mechanism, which keeps overall reserves in relative ' + 
