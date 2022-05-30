@@ -4,41 +4,41 @@ import styles from './Roadmap.module.css';
 
 const RoadmapList = [
     {
-        title: 'Q2 2022',
+        title: 'Stage 1: Launching and Community Building',
         items: [
-            "Project Idea's & Prototype design",      
-            "Team Building",  
-            "Pitch deck Completed",
-            "White paper",
-            "Website Creation & Launch"
+          'Project Idea\'s & Prototype design',
+          'Team Building',
+          'Website Creation & Launch',
+          'Community Building & Social Campaign',
+          'Smart Contract Creation and Verification',
+          'Launchpad Marketing'
         ]
     },
     {
-      title: 'Q3 2022',
+      title: 'Stage 2: Launchpad & Community Growth',
       items: [
-          "$CEX Token Creation", 
-          "Strategic Plan",
-          "Swap & Staking Dapp Development",
-          "Launchpad"
+        'Launchpad', 
+        'Listing and Locking',
+        'Listing on Coin Ranking: CoinMarketCap and Coingecko',
+        'Community Growth Marketing',
+        'Giving out Testers Spots to the Community',
       ]
   },
   {
-    title: 'Q4 2022',
+    title: 'Stage 3: Development',
     items: [
-        "Swap & Staking Dapp's Launch",      
-        "Project Launched to Public", 
-        "Partnerships", 
-        "Token listing on Exchanges"
+      'Swap Contract Deployment',
+      'Token Contract Audit and Swap Contract Audit',
+      'Strategic Partnerships',
+      'Lottery Development',
+      'IDO Launchpad Development'
     ]
   },
   {
-    title: 'Q1 2023',
+    title: 'Stage 4: Further Development',
     items: [
-        "Governance Dapp's Development",
-        "Lottery Development",
-        "IDO Launchpad Development",      
-        "Strategic Partnerships", 
-        "Additional features"
+      'Strategic Partnerships',
+      'Further Developments to be implemented and Roadmap, Website and White Paper to be updated as we grow.'
     ]
   }
 ];

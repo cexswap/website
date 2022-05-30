@@ -16,15 +16,25 @@ const FeatureList = [
         ]
     },
     {
-        title: 'Governance',
-        description: 'CEXSwap is fully governed by his community through the usage of $CEX token. Community vote for swap fee, slippage fees, referral commission, liquidity providers earned commission.',
+        title: 'Yield Farming',
+        description: 'Users provide liquidity to various token pairs and earn rewards in cryptocurrencies, mostly $CEX token.',
         links: [
             {
-                title: 'DAO',
+                title: 'Pools',
                 href: '#'
             }
         ]
     },
+    {
+      title: 'Governance',
+      description: 'CEXSwap is fully governed by his community through the usage of $CEX token. Community vote for swap fee, slippage fees, referral commission, liquidity providers earned commission.',
+      links: [
+          {
+              title: 'DAO',
+              href: '#'
+          }
+      ]
+  },
     {
         title: 'Token Issuance',
         description: 'A total of 100 million $CEX tokens will be issued, but the CEXSwap team will try not to depreciate the value of $CEX tokens as much as possible through CEXSwap\'s unique deflationary policy. All tokens to be burned will be disclosed transparently.',
@@ -36,21 +46,21 @@ const FeatureList = [
         ]
     },
     {
-      title: 'IDO Launchpad',
-      description: 'IDO Launchpad for a decentralized fundraising enabling projects to raise capital and promise safety to early stage investors.',
-      links: [
-          {
-              title: 'IDO',
-              href: '#'
-          }
-      ]
-    },
-    {
       title: 'Lottery',
       description: 'CEXSwap offers users a way to make money with cryptocurrency by participate in crypto lottery games.',
       links: [
           {
               title: 'Lottery',
+              href: '#'
+          }
+      ]
+    },
+    {
+      title: 'IDO Launchpad',
+      description: 'IDO Launchpad for a decentralized fundraising enabling projects to raise capital and promise safety to early stage investors.',
+      links: [
+          {
+              title: 'IDO',
               href: '#'
           }
       ]
